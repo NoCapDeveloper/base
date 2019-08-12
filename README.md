@@ -3,3 +3,6 @@ Web app template, based on [HTML5 Boilerplate v7.2.0](https://html5boilerplate.c
 
 ## Major Changes to HTML5 Boilerplate
 - Removed jQuery
+
+## More
+- Added [Parcel](https://parceljs.org/) module bundler
