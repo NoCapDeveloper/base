@@ -4,6 +4,5 @@ Web app template, based on [HTML5 Boilerplate v7.2.0](https://html5boilerplate.c
 ## Major Changes to HTML5 Boilerplate
 - Removed jQuery
 - Converted CSS to SASS
-
-## More
-- Added [Parcel](https://parceljs.org/) module bundler (`npm start`)
+- Cleaned and prettified HTML and SASS
+- Leverage [Parcel] module bundler (`npm start`)
