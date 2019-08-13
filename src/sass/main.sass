@@ -101,14 +101,14 @@ textarea
 .hidden
   display: none !important
 
-/*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
+
+// Hide only visually, but have it available for screen readers:
+// https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+//
+// 1. For long content, line feeds are not interpreted as spaces and small width
+//    causes content to wrap 1 word per line:
+//    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+
 
 .sr-only
   border: 0
@@ -162,20 +162,20 @@ textarea
 .clearfix:after 
   clear: both
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+// ==========================================================================
+// EXAMPLE Media Queries for Responsive Design.
+// These examples override the primary ('mobile first') styles.
+// Modify as content requires.
+// ========================================================================== */
 
 @media only screen and (min-width: 35em)
-  /* Style adjustments for viewports that meet the condition */
+// Style adjustments for viewports that meet the condition
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi)
-  /* Style adjustments for high resolution devices */
+//@media print,
+//  (-webkit-min-device-pixel-ratio: 1.25),
+//  (min-resolution: 1.25dppx),
+//  (min-resolution: 120dpi)
+//    /* Style adjustments for high resolution devices */
 
 /* ==========================================================================
    Print styles.
@@ -184,12 +184,9 @@ textarea
    ========================================================================== */
 
 @media print
-  *,
-  *:before,
-  *:after
+  *, *:before, *:after
     background: transparent !important
-    color: #000 !important
-    /* Black prints faster */
+    color: #000 !important // Black prints faster
     -webkit-box-shadow: none !important
     box-shadow: none !important
     text-shadow: none !important
