@@ -19,6 +19,5 @@
       console[method] = noop;
     }
   }
+  console.log('Hello');
 }());
-
-// Place any jQuery/helper plugins in here.
