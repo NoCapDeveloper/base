@@ -19,5 +19,4 @@
       console[method] = noop;
     }
   }
-  console.log('Hello');
 }());
