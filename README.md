@@ -6,4 +6,5 @@ Web app template, based on [HTML5 Boilerplate v7.2.0](https://html5boilerplate.c
 - Converted CSS to SASS
 - Cleaned and prettified HTML and SASS
 - Added SASS mixins for media queries and variables
+- Added useful JS utils and router for SPAs
 - Leverage [Parcel](https://parceljs.org/) module bundler (`npm start`)
