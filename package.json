@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/NoCapDeveloper/base/issues"
   },
-  "homepage": "https://github.com/NoCapDeveloper/base#readme"
+  "homepage": "https://github.com/NoCapDeveloper/base#readme",
+  "dependencies": {
+    "@nocapdeveloper/router": "^1.0.0"
+  }
 }
