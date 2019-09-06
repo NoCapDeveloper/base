@@ -5,4 +5,5 @@ Web app template, based on [HTML5 Boilerplate v7.2.0](https://html5boilerplate.c
 - Removed jQuery
 - Converted CSS to SASS
 - Cleaned and prettified HTML and SASS
+- Added SASS mixins for media queries and variables
 - Leverage [Parcel](https://parceljs.org/) module bundler (`npm start`)
